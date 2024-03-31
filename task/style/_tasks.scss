@@ -1,0 +1,16 @@
+.tasks {
+    margin-bottom: 120px;
+}
+
+.task__number {
+    font-weight: bold;
+    font-size: 200px;
+    color: #F2F2F2;
+}
+
+.task__description {
+    font-size: 22px;
+    @media (max-width: 510px) {
+        font-size: 15px;
+    }
+}

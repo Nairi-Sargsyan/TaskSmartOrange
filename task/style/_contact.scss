@@ -1,0 +1,32 @@
+.contact {
+    margin-bottom: 120px;
+}
+
+.input__control {
+    position: relative;
+
+    .input__placeholder {
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        color: #8D8D8D;
+        transition: all .3s ease;
+    }
+
+    .contact__input {
+        background-color: #F3F3F3;
+        padding: 15px 20px;
+        border: none;
+        outline: none;
+        margin-bottom: 10px;
+    }
+
+    .star {
+        color: red;
+    }
+
+    .contact__input:focus + .input__placeholder, .contact__input:not(:focus):valid + .input__placeholder{
+        opacity: 0;
+    }
+}
+

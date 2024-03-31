@@ -1,0 +1,39 @@
+.footer {
+    padding: 60px 0;
+    background-color: #2C2C2C;
+
+    .info__navbar {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .nav-item {
+        margin-bottom: 15px;
+        .footer__link {
+            color: #fff;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .footer__item {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        transition: all .3s ease;
+        .footer__social {
+            border-radius: 50%;
+            path {
+                transition: all .3s ease;
+            }
+        }
+        &:hover {
+            background-color: #fff;
+            path {
+                fill: #2C2C2C;
+            }
+        }
+    }
+}

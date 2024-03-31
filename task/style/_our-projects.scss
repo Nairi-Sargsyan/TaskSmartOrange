@@ -1,0 +1,63 @@
+.our-projects {
+    margin-bottom: 120px;
+}
+
+.projects__review {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 50px 80px;
+    flex-direction: column;
+    background: linear-gradient(90deg, #333333c4, #333333c4),
+    url('../images/our__progect_01.png') no-repeat center;
+    background-size: 100% 100%;
+    @media (max-width: 510px) {
+        padding: 10px 10px;
+    }
+
+    .review__title {
+        font-weight: bold;
+        font-size: 64px;
+        color: #fff;
+        @media (max-width: 510px) {
+            font-size: 40px;
+        }
+    }
+
+    .review__btn {
+        border: none;
+        background-color: #ffffff00;
+        color: #fff;
+        letter-spacing: 3px;
+        font-size: 12px;
+        transition: all .3s ease;
+        path {
+            fill: #fff;
+        }
+    }
+}
+
+.op__button {
+    padding: 25px 40px;
+    letter-spacing: 3px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    transition: all .3s ease;
+    path {
+        fill: #fff;
+        transition: all .3s ease;
+    }
+    &:hover {
+        background-color: #BDBDBD;
+        color: #000;
+        path {
+            fill: #000;
+        }
+    }
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}

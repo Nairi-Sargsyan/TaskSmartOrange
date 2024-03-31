@@ -1,0 +1,47 @@
+.company {
+    background-color: #FBFBFB;
+    padding: 30px 100px;
+    margin-bottom: 150px;
+    @media (max-width: 767px) {
+        padding: 10px 20px;
+    }
+
+    .company__image_02 {
+        margin-bottom: -70px;
+        @media (max-width: 990px) {
+            margin-bottom: 16px;
+        }
+    }
+}
+
+.section__title {
+    font-weight: 300;
+    font-size: 64px;
+    color: #BDBDBD;
+    @media (max-width: 510px) {
+        font-size: 40px;
+    }
+}
+
+.info__description {
+    font-size: 16px;
+}
+
+.info__btn {
+    padding: 25px 65px;
+    background-color: #fff;
+    color: #333333;
+    border: none;
+    transition: all .3s ease;
+    path {
+        transition: all .3s ease;
+    }
+    &:hover {
+        background-color: #333333;
+        color: #fff;
+        path {
+            fill: #fff;
+        }
+    }
+}
+
